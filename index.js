@@ -24,7 +24,7 @@ client.on('ready', async () => {
         mcpeping('ip de ton serv', 19133, function(error, ress){
 
             if(err){
-                lobby =  \état:` - Offline (Whitelist) \n `Déconnecté` - 0/500
+                lobby =  `état:` - Offline (Whitelist) \n `Déconnecté` - 0/500
             }else{
                 lobby =  `état:` - En Ligne (Whitelist) \n `Connecté` - ${res.currentPlayers}/${res.maxPlayers}
             }
